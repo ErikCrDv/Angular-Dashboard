@@ -1,1 +1,23 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <app-doughnut
+            [doughnutChartName]="Name"
+            [doughnutChartLabels]="Labels"
+            [doughnutChartDatasets]="Datasets"
+            [doughnutChartColor]="Color"
+        ></app-doughnut>
+    </div>
+    <div class="col-6">
+        <app-doughnut
+            doughnutChartName="Compras"
+        ></app-doughnut>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <app-doughnut></app-doughnut>
+    </div>
+    <div class="col-6">
+        <app-doughnut></app-doughnut>
+    </div>
+</div>
